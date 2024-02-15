@@ -21,7 +21,7 @@ export function NoteCard({ note, onNoteDeleted, onNoteEdit }: NoteCardProps) {
 
     const [isEditing, setIsEditing] = useState(false)
     const [content, setContent] = useState(note.content)
-    const [dialogOpen, setDialogOpen] = useState(false);  
+    const [dialogOpen, setDialogOpen] = useState(false) 
  
 
     function handleContentChange(event: ChangeEvent<HTMLTextAreaElement>) {
